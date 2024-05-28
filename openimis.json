@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "locales": [
     {
       "languages": [
@@ -116,3 +117,125 @@
     }
   ]
 }
+=======
+    "locales": [
+        {
+            "languages": [
+                "en",
+                "en-GB"
+            ],
+            "intl": "en-GB",
+            "fileNames": "en"
+        },
+        {
+            "languages": [
+                "fr",
+                "fr-FR"
+            ],
+            "intl": "fr-FR",
+            "fileNames": "fr"
+        }
+    ],
+    "modules": [
+        {
+            "name": "CoreModule",
+            "npm": "@openimis/fe-core@link:latest"
+        },
+        {
+            "name": "HomeModule",
+            "npm": "@openimis/fe-home@>=1.5.0"
+        },
+        {
+            "name": "LocationModule",
+            "npm": "@openimis/fe-location@link:latest"
+        },
+        {
+            "name": "InsureeModule",
+            "npm": "@openimis/fe-insuree@link:latest"
+        },
+        {
+            "name": "MedicalModule",
+            "npm": "@openimis/fe-medical@link:latest"
+        },
+        {
+            "name": "MedicalPriceListModule",
+            "npm": "@openimis/fe-medical_pricelist@>=1.5.0"
+        },
+        {
+            "name": "ProductModule",
+            "npm": "@openimis/fe-product@link:latest"
+        },
+        {
+            "name": "PolicyModule",
+            "npm": "@openimis/fe-policy@link:latest"
+        },
+        {
+            "name": "ContributionModule",
+            "npm": "@openimis/fe-contribution@link:latest"
+        },
+        {
+            "name": "ClaimModule",
+            "npm": "@openimis/fe-claim@link:latest"
+        },
+        {
+            "name": "ClaimBatchModule",
+            "npm": "@openimis/fe-claim_batch@>=1.4.1"
+        },
+        {
+            "name": "AdminModule",
+            "npm": "@openimis/fe-admin@link:latest"
+        },
+        {
+            "name": "ToolsModule",
+            "npm": "@openimis/fe-tools@>=1.5.0"
+        },
+        {
+            "name": "ProfileModule",
+            "npm": "@openimis/fe-profile@>=1.5.0"
+        },
+        {
+            "name": "LanguageFrModule",
+            "npm": "@openimis/fe-language_fr@>=1.5.1"
+        },
+        {
+            "name": "CalculationModule",
+            "npm": "@openimis/fe-calculation@>=1.4.1"
+        },
+        {
+            "name": "PolicyHolderModule",
+            "npm": "@openimis/fe-policyholder@>=1.4.1"
+        },
+        {
+            "name": "ContributionPlanModule",
+            "npm": "@openimis/fe-contribution_plan@>=1.5.0"
+        },
+        {
+            "name": "InvoiceModule",
+            "npm": "@openimis/fe-invoice@link:latest"
+        },
+        {
+            "name": "ProgramModule",
+            "npm": "@openimis/fe-program@link:latest"
+        },
+        {
+            "name": "CsuModule",
+            "npm": "@openimis/fe-csu@link:latest"
+        },
+        {
+            "name": "CmrCsModule",
+            "npm": "@openimis/fe-cmr-cs@link:latest"
+        },
+        {
+            "name": "PayerModule",
+            "npm": "@openimis/fe-payer@git+https://github.com/openimis/openimis-fe-payer_js.git#main"
+        },
+        {
+            "name": "LanguageFrCmrCSUModule",
+            "npm": "@openimis/fe-language_fr_cmr_csu@link:latest"
+        },{
+            "name": "IdpsModule",
+            "npm": "@openimis/fe-idps@link:latest"
+        }
+    ]
+}
+>>>>>>> Stashed changes
